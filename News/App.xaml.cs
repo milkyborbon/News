@@ -9,7 +9,7 @@ namespace News
         public App()
         {
             InitializeComponent();
-
+            Bootstrapper.Initialize();
             MainPage = new MainPage();
         }
 
